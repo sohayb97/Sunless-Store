@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Poppins-Regular', sans-serif !important;
+}
+.sec1{
+}
+.img-container{
+background-image: url(/assets/img/2875m7.webp);
+height: 40rem;
+background-size:cover;
+}
+
+.hero-header{
+  font-weight:bold;
+  font-size:4rem;
+  color: white;
+  margin-top: 10rem;
+}
+.hero-header2{
+
+  font-size:2rem;
+  color: rgb(211, 211, 211)
+}
+.hero-btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid white;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s;
+  z-index: 1;
+  color: white;
+   font-weight:bold;
+ }
+
+ .hero-btn::before {
+  content: '';
+  width: 0;
+  height: 400%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+
+ .hero-btn:hover::before {
+  width: 105%;
+ }
+
+ .hero-btn:hover {
+  color: #111;
+ }
+
+ .brand-logo{
+  width: 7rem;
+ }
+ .brand-logo3{
+  width: 8rem;
+ }
+
+ .brand-logo1{
+  width: 15rem;
+ }
+ .sec2-header{
+  font-weight:bold;
+  font-size:2rem;
+  opacity: 70%;
+  margin-top: 6rem;
+ }
+ .brand-container{
+gap: 10rem;
+ }
+ .sec3-header{
+  font-weight:bold;
+  font-size:2rem;
+  opacity: 70%;
+  margin-top:3rem;
+ }
+ .cardd{
+  width: 20rem;
+  height: 29rem;
+  border-radius: 2rem;
+  padding: 2rem;
+
+ }
+a{
+  text-decoration: none !important;
+}
+
+
+ .glass-img{
+  width:100%;
+ }
+ .discount{
+  text-decoration: line-through;
+  margin: 0;
+ }
+ .sec4{
+  height: 40rem;
+  margin-top: 5rem;
+ }
+ .sec4-img{
+  width: 80rem !important;
+  border-radius: 2rem;
+  height: 38rem !important;
+  position: absolute;
+
+ }
+ .sec4-header{
+  font-weight:bold;
+  font-size:3rem;
+  position: absolute;
+  margin-top: 12rem;
+  margin-left: 45rem;
+ }
+ .sec4-header2{
+  font-weight:bold;
+  color: rgba(210, 210, 210, 0.879);
+  font-size:1.5rem;
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: 50rem;
+ }
+ .sec4-btn{
+  margin-top: 22rem;
+  margin-left: 56rem;
+ }

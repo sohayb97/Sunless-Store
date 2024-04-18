@@ -1,0 +1,50 @@
+
+ .cardd{
+  width: 20rem;
+  height: 29rem;
+  border-radius: 2rem;
+  padding: 2rem;
+
+ }
+a{
+  text-decoration: none !important;
+}
+
+
+ .glass-img{
+  width:100%;
+ }
+ .discount{
+  text-decoration: line-through;
+  margin: 0;
+ }
+ .sec4{
+  height: 40rem;
+  margin-top: 5rem;
+ }
+ .sec4-img{
+  width: 80rem !important;
+  border-radius: 2rem;
+  height: 38rem !important;
+  position: absolute;
+
+ }
+ .sec4-header{
+  font-weight:bold;
+  font-size:3rem;
+  position: absolute;
+  margin-top: 12rem;
+  margin-left: 45rem;
+ }
+ .sec4-header2{
+  font-weight:bold;
+  color: rgba(210, 210, 210, 0.879);
+  font-size:1.5rem;
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: 50rem;
+ }
+ .sec4-btn{
+  margin-top: 22rem;
+  margin-left: 56rem;
+ }
