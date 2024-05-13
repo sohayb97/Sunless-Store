@@ -12,12 +12,12 @@ export class orderComponent implements OnInit {
 constructor(private router:Router){}
  countdown = 5
   ngOnInit(): void {
-  // const interval =  setInterval(()=>{
-  //     this.countdown=this.countdown-1
-  //     if (this.countdown == 0) {
-  //       clearInterval(interval);
-  //       this.router.navigateByUrl('')
-  //         }
-  //   },1000)
+  const interval =  setInterval(()=>{
+      this.countdown=this.countdown-1
+      if (this.countdown == 0) {
+        clearInterval(interval);
+        this.router.navigateByUrl('')
+          }
+    },1000)
   }
 }
