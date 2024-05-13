@@ -11,6 +11,7 @@ import { WishlistComponent } from './Wishlist/wishlist/wishlist.component';
 import { HomeComponent } from './home/home/home.component';
 import { StoreRoutingModule } from './store-route.module';
 import { orderComponent } from './order/order.component';
+import { Toggler } from './Toggler/Toggler.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { orderComponent } from './order/order.component';
     CartComponent,
     WishlistComponent,
     HomeComponent,
-    orderComponent
+    orderComponent,
+    Toggler
 
   ],
   imports: [

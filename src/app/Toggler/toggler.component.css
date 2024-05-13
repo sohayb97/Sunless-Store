@@ -1,0 +1,23 @@
+.navbar-brand{
+  width: 70px;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-cart{
+  scale: 70%;
+  }
+  .cart
+  {
+    width: 1rem;
+  }
+  .btnn-cart{
+    scale: 70%;
+  }
+  @media screen and (min-width: 1000px) {
+    .all{
+      display: none;
+    }
+  }

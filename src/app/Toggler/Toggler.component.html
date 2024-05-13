@@ -1,0 +1,21 @@
+<nav class="all navbar border-top sticky-bottom navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img class="navbar-brand" src="../../assets/img/logo.png">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> <button  [ngStyle]="{'background-color': CartCounter > 0 ? 'red' : '' , 'color':CartCounter> 0 ? 'white':'','display':CartCounter == 0 ? 'none':''}" class="btn btnn-cart disabled">{{CartCounter}}</button>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link text-center" aria-current="page" routerLink="">Home</a>
+        <a class="nav-link text-center" routerLink="products">Products</a>
+        <button class="btn btn-outline  bb "  type="submit" routerLink="/cart">
+         Cart
+          <button  [ngStyle]="{'background-color': CartCounter > 0 ? 'red' : '' , 'color':CartCounter> 0 ? 'white':'','display':CartCounter == 0 ? 'none':''}" class="btn btn-cart disabled">{{CartCounter}}</button>
+                </button>
+      </div>
+    </div>
+  </div>
+</nav>
