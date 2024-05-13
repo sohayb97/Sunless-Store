@@ -169,7 +169,11 @@ width: 50px;  }
     width: 70px;
    }
    .brand-container{
+    display: flex;
+    flex-direction: row;
     gap: 70px;
+    justify-content: center !important;
+
      }
 
    .brand-logo1{
@@ -178,6 +182,7 @@ width: 50px;  }
   .offers-container{
     display: grid !important;
     grid-template-columns: 1fr 1fr;
+    justify-content: center !important;
   }
    .cardd{
     width: 230px !important;
