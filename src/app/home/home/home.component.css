@@ -173,6 +173,7 @@ width: 50px;  }
     flex-direction: row;
     gap: 70px;
     justify-content: center !important;
+    margin-left: 50px;
 
      }
 
@@ -183,6 +184,7 @@ width: 50px;  }
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     justify-content: center !important;
+    margin-left: 50px;
   }
    .cardd{
     width: 230px !important;
