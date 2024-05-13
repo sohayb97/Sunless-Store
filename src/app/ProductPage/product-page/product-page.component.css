@@ -48,3 +48,35 @@ a{
   margin-top: 22rem;
   margin-left: 56rem;
  }
+ @media screen and (max-width:550px) {
+  .container{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 100px;
+  }
+  .offers-container{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+      justify-items: center !important;
+      gap: 10px !important;
+    }
+   .cardd{
+    width: 250px !important;
+    height: 360px !important;
+    padding-bottom: 7px !important;
+    gap:10px !important;
+
+  }
+  .cardd-name{
+    font-size: 20px !important;
+  }
+  .xx{
+    font-size: 20px !important;
+  }
+
+ .card-details{
+  display: none;
+ }
+
+ }
+

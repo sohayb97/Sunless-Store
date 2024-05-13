@@ -1,0 +1,15 @@
+@media screen and (max-width:550px) {
+  .loading{
+    font-size: 14px;
+  }
+  .cc{
+    font-size: 9px !important;
+  }
+  .Main{
+    margin-top: 60px !important;
+    scale: 200% !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    height:420px;
+  }
+}

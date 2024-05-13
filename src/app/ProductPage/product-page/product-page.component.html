@@ -5,7 +5,7 @@
     <div class="d-flex flex-row justify-content-end mb-3"><i class="fa-regular fa-heart fs-4" style="color: #707070;"></i></div>
     <a href=""><img class="glass-img mb-3" [src]="prod.imgURL" alt=""></a>
     <a href=""><p class="fs-3 text-dark">{{prod.name}}</p></a>
-    <p>{{prod.detials}}</p>
+    <p class="card-details">{{prod.detials}}</p>
     <div><span *ngIf="prod.sale == true" class="discount text-danger fs-4">{{prod.prise}}$</span>
     <span  class="text-dark fs-3 ">{{prod.prise-(prod.prise*(prod.salePercinage/100))}}$</span></div>
   <button class="btn btn-outline-dark" (click)="onProudSelect(prod)">Add to Cart</button>
