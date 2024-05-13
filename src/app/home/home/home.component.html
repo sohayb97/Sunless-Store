@@ -15,7 +15,7 @@
     <img class="brand-logo1" src="/assets/svg/Ray-Ban.png" alt="">
     <img class="brand-logo" src="/assets/svg/Gucci.png" alt="">
     <img class="brand-logo3" src="/assets/svg/Oakley.png" alt="">
-    <img class="brand-logo3" src="/assets/svg/Tom-ford.png" alt="">
+    <img class="brand-logo3 res-del" src="/assets/svg/Tom-ford.png" alt="">
   </div>
 </section>
 <!-- /////////////////////////////////////////// -->
@@ -26,10 +26,10 @@
       <div class="cardd shadow-lg d-flex flex-column justify-content-between">
         <div class="d-flex flex-row justify-content-end mb-3"><i class="fa-regular fa-heart fs-4" style="color: #707070;"></i></div>
         <a href=""><img class="glass-img mb-3" [src]="prod.imgURL" alt=""></a>
-        <a href=""><p class="fs-3 text-dark">{{prod.name}}</p></a>
+        <a href=""><p class="cardd-name fs-3 text-dark">{{prod.name}}</p></a>
         <p class="cardd-detials">{{prod.detials}}</p>
-        <div><span *ngIf="prod.sale == true" class="discount text-danger fs-4">{{prod.prise}}$</span>
-        <span  class="text-dark fs-3 ">{{prod.prise-(prod.prise*(prod.salePercinage/100))}}$</span></div>
+        <div><span *ngIf="prod.sale == true" class="discount xx text-danger fs-4">{{prod.prise}}$</span>
+        <span  class="text-dark fs-3 xx">{{prod.prise-(prod.prise*(prod.salePercinage/100))}}$</span></div>
       <button class="btn btncart btn-outline-dark" (click)="onProudSelect(prod)">Add to Cart</button>
       </div>
     </div>
