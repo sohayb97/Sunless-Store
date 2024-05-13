@@ -1,8 +1,10 @@
 <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
-  <div class="container-fluid">
+  <div class="container-fluid row">
     <!-- <a class="navbar-brand fw-bold" href="#">sunless</a> -->
-    <img src="/assets/img/logo.png" class="logo-img" alt="" routerLink="">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <img src="/assets/img/logo.png" class="logo-img col-1" alt="" routerLink="">
+    <div class="col-8 justify-content-center">
+<div class=" d-flex flex-row " id="navbarSupportedContent">
       <div class="mx-auto navbar-links">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <div class=" d-flex mx-auto gap-3">
@@ -24,15 +26,19 @@
 
         </ul>
       </div>
-      <button class="btn btn-outline bb ms-3"  type="submit" routerLink="/cart">
-cart
-<img class="cart" src="../../../assets/img/cart.png" alt="">
-<button  [ngStyle]="{'background-color': CartCounter > 0 ? 'red' : '' , 'color':CartCounter> 0 ? 'white':'','display':CartCounter == 0 ? 'none':''}" class="btn btn-cart disabled">{{CartCounter}}</button>
-      </button>
+
 
       <p></p>
 
       </div>
+    </div>
+ <div class="col-2">
+  <button class="btn btn-outline bb ms-3"  type="submit" routerLink="/cart">
+    cart
+    <img class="cart" src="../../../assets/img/cart.png" alt="">
+    <button  [ngStyle]="{'background-color': CartCounter > 0 ? 'red' : '' , 'color':CartCounter> 0 ? 'white':'','display':CartCounter == 0 ? 'none':''}" class="btn btn-cart disabled">{{CartCounter}}</button>
+          </button>
+ </div>
 
    </div>
 </nav>
