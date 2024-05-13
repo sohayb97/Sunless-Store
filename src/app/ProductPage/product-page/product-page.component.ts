@@ -10,6 +10,11 @@ import { Product } from 'src/models/Product.model';
 })
 export class ProductPageComponent {
   @Output() ChosenProd = new EventEmitter();
+  products= prods.products
+
+  // currentPage = 1;
+  // itemsPerPage = 5;
+  // totalProducts = this.products.length;
 
   constructor(){
   }
@@ -18,7 +23,19 @@ export class ProductPageComponent {
    this.ChosenProd.emit(prod);
    cart.busket.push(prod)
   }
-  
-  products= prods.products
+
+
+  // changePage(page: number): void {
+  //   this.currentPage = page;
+  // }
+
+  // get paginatedProducts() {
+  //   const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+  //   return this.products.slice(startIndex, startIndex + this.itemsPerPage);
+  // }
+
+  // get numberOfPages(): number {
+  //   return Math.ceil(this.totalProducts / this.itemsPerPage);
+  // }
 
 }

@@ -1,4 +1,4 @@
-.btn-danger{
+.btn-cart{
 border-radius : 1rem;
 scale: 70%;
 }
@@ -8,4 +8,14 @@ scale: 70%;
 }
 .bb{
   font-size: larger;
+}
+
+.nav-link:focus
+.nav-link:active{
+color: rgb(182, 0, 0) !important;
+border-bottom: 2px solid rgb(182, 0, 0) !important;
+}
+.logo-img{
+  width: 80px;
+  cursor: pointer;
 }

@@ -7,12 +7,6 @@ export class prods {
     new Product('Falent Vintage Sunglasses 2 ','Polygon Polarised Sunglasses Women Men Metal UV500 Protection',55,'/assets/img/glasses2.jpg',false,0),
     new Product('Falent Vintage Sunglasses 3 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses3.jpg',true,50),
     new Product('Falent Vintage Sunglasses 4 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses2.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 5 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses1.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 6 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses3.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 7 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses3.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 8 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses1.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 9 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses2.jpg',true,50),
-    new Product('Falent Vintage Sunglasses 10 ','Polygon Polarised Sunglasses Women Men Metal UV600 Protection',80,'/assets/img/glasses3.jpg',true,50)
-    ]
+ ]
 
 }

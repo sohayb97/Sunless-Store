@@ -1,3 +1,5 @@
+import { prods } from 'src/models/Prods';
+import { Product } from 'src/models/Product.model';
 import { cart } from 'src/models/Cart.model';
 import { Component, OnInit } from '@angular/core';
 
@@ -15,7 +17,7 @@ export class HeaderComponent implements OnInit {
       this.updateCartCounter();
     }, 1000);
   }
-
+  
   updateCartCounter() {
     this.CartCounter = cart.busket.length;
   }

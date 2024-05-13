@@ -1,29 +1,21 @@
-<nav class="navbar navbar-expand-lg bg-white sticky-top">
+<nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
   <div class="container-fluid">
     <!-- <a class="navbar-brand fw-bold" href="#">sunless</a> -->
-    <img src="/assets/img/logo.png" style="width: 80px;" alt="">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <form class="d-flex ms-5" role="search">
-      <input class="form-control me-2" style="width: 40rem;" type="search" placeholder="What are you looking for ?" aria-label="Search">
-      <button class="btn btn-outline-dark" type="submit">Search</button>
-     </form>
+    <img src="/assets/img/logo.png" class="logo-img" alt="" routerLink="">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="mx-auto">
+      <div class="mx-auto navbar-links">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <div class=" d-flex mx-auto gap-3">
             <li class="nav-item">
               <a class="nav-link  fw-bold" aria-current="page"  routerLink="">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link fw-bold" routerLink="/products">
+              <a class="nav-link fw-bold" routerLink="products">
                 Products
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" routerLink="">Community</a>
+              <a class="nav-link fw-bold" routerLink="" >Community</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold" routerLink="">More</a>
@@ -35,7 +27,7 @@
       <button class="btn btn-outline bb ms-3"  type="submit" routerLink="/cart">
 cart
 <img class="cart" src="../../../assets/img/cart.png" alt="">
-<button class="btn btn-danger disabled ">{{CartCounter}}</button>
+<button  [ngStyle]="{'background-color': CartCounter > 0 ? 'red' : '' , 'color':CartCounter> 0 ? 'white':'','display':CartCounter == 0 ? 'none':''}" class="btn btn-cart disabled">{{CartCounter}}</button>
       </button>
 
       <p></p>
