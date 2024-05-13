@@ -189,12 +189,14 @@ width: 40px;  }
   .offers-container{
     display: grid !important;
     grid-template-columns: 1fr;
-      justify-items: center;
+      justify-items: center !important;
       gap: 10px !important;
+      margin-bottom: 50px;
+      margin-right: 50px;
     }
    .cardd{
-    width: 200px !important;
-    height: 330px !important;
+    width: 250px !important;
+    height: 350px !important;
     padding-bottom: 7px;
     gap:10px;
 
@@ -225,6 +227,7 @@ display: none;  }
 
   .offers-cards {
     width: 200px;
+
   }
 
   .sec4 .sec4-header {
@@ -243,13 +246,15 @@ display: none;  }
 
   }
   .sec4{
-    height: 300px;
+    height: 300px
+    ;
+    display: none;
   }
   .sec4 .sec4-btn {
     padding: 10px 20px;
     font-size: 7px;
     margin-top: 87px;
-    margin-left: 210px;
+    margin-left: 200px;
   }
   .sec4-img{
   width: 350px ;
