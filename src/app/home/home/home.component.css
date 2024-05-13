@@ -143,7 +143,7 @@ a{
  }
 
 
- @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 550px) {
 
   .sec1 .hero-header {
     font-size: 24px;
@@ -184,7 +184,6 @@ width: 50px;  }
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     justify-content: center !important;
-    margin-left: 50px;
   }
    .cardd{
     width: 230px !important;
@@ -239,6 +238,106 @@ width: 50px;  }
   .sec4-img{
   width: 520px ;
   height: 246px ;
+  border-radius: 10px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .sec1 .hero-header {
+    font-size: 24px;
+  }
+
+  .img-container{
+    background-image: url(/assets/img/2875m7.jpg);
+    height: 480px;
+    width: 720px;
+    background-size:cover;
+    }
+
+  .sec1 .hero-header2 {
+    font-size: 18px;
+  }
+  .sec1 .hero-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .brand-logo{
+width: 100px;  }
+
+   .brand-logo3{
+    width: 140px;
+   }
+   .brand-container{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center !important;
+
+     }
+
+   .brand-logo1{
+    width: 200px;
+   }
+  .offers-container{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center !important;
+  }
+   .cardd{
+    width: 320px !important;
+    height: 450px !important;
+    padding-bottom: 7px;
+
+  }
+  .btncart{
+    margin-bottom: 7px;
+  }
+
+  .sec2 .sec2-header {
+    font-size: 24px;
+  }
+
+  .brand-container img {
+    max-width: 100px;
+  }
+
+  .sec3-header {
+    font-size: 24px;
+  }
+
+  .offers-cards {
+    width: 200px;
+  }
+
+  .sec4 .sec4-header {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 30px;
+  margin-left: 380px;
+
+  }
+  .sec4 .sec4-header2 {
+    font-size: 18px !important;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 395px;
+    font-size: 15px;
+
+  }
+  .sec4{
+    height: 300px;
+  }
+  .sec4 .sec4-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 170px;
+    margin-left: 450px;
+  }
+  .sec4-img{
+  width: 720px ;
+  height: 341px ;
   border-radius: 10px;
   }
 
